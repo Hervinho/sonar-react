@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`can open modal 1`] = `
+<body
+  class="modal-open"
+  data-rr-ui-modal-open=""
+  style="padding-right: 1024px;"
+>
+  <div>
+    <button
+      class="btn btn-primary"
+      style="background-color: rgb(0, 84, 166);"
+      type="primary"
+    >
+      Cliquez Moi
+    </button>
+  </div>
+  <div
+    class="fade modal-backdrop show"
+  />
+  <div
+    aria-modal="true"
+    class="fade modal show"
+    role="dialog"
+    style="display: block; padding-right: 0px;"
+    tabindex="-1"
+  >
+    <div
+      class="modal-dialog"
+    >
+      <div
+        class="modal-content"
+      >
+        <div
+          class="modal-body"
+        >
+          Bonjour Laval!
+        </div>
+        <div
+          class="modal-footer"
+        >
+          <button
+            class="btn btn-secondary"
+            type="button"
+          >
+            Fermez
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`renders page 1`] = `
+<body>
+  <div>
+    <button
+      class="btn btn-primary"
+      style="background-color: rgb(0, 84, 166);"
+      type="primary"
+    >
+      Cliquez Moi
+    </button>
+  </div>
+</body>
+`;
